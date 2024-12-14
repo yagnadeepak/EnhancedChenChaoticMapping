@@ -1,45 +1,41 @@
-Enhanced Chen Chaotic Mapping
-	This repository provides an implementation of Enhanced Chen Chaotic Mapping for cryptographic and security applications. The Enhanced Chen chaotic map is a nonlinear dynamic system widely used in areas like encryption, secure communication, and random number generation due to its highly sensitive and unpredictable behavior.
+Project Overview
+        This repository implements the Enhanced Chen chaotic map, useful in cryptographic systems and random number generation. It models a chaotic system with adjustable parameters for diverse applications.
 
 Features
-	Implementation of the Enhanced Chen Chaotic System
-	Demonstrates the mathematical modeling of the Enhanced Chen chaotic map for generating chaotic sequences.
-
-Cryptographic Applications
-	The chaotic mapping can be utilized for:
-	Data encryption and decryption
-	Pseudo-random number generation
-	Secure key generation
-	Flexible Configuration
-	Adjustable parameters to tune the chaotic behavior, allowing exploration of its properties.
+        Mathematical Modeling: Simulates the Enhanced Chen chaotic system using Python.
+        Cryptographic Applications: Generates pseudo-random sequences for secure communication.
+        Parameter Tuning: Explore the sensitivity of the system by modifying parameters.
 
 Use Cases
-	Encryption Algorithms: Securely encode sensitive data.
-	Random Number Generation: Produce highly unpredictable sequences for cryptographic operations.
-	Chaos-based Communication: Use chaotic signals for masking and transmitting information securely.
+        Encryption Systems: Use chaotic sequences for secure key generation and data encryption.
+        Random Number Generation: Implement in scenarios requiring high entropy.
+        Chaos Research: Analyze the properties of chaotic systems for academic or practical applications.
 
-How to Use
-  Clone the repository:
-  bash
-  Copy code: git clone https://github.com/yagnadeepak/EnhancedChenChaoticMapping.git
+Setup Instructions
+        Prerequisites:
+                Python 3.x installed on your system.
+        Install dependencies:
+                bash
+                Copy code: pip install -r requirements.txt
 
-  Navigate to the project directory:
-    bash
-    Copy code: cd EnhancedChenChaoticMapping
+Steps:
+        Clone the repository:
+                bash
+                Copy code: git clone https://github.com/yagnadeepak/EnhancedChenChaoticMapping.git
+        Run the provided scripts to:
+                Generate chaotic sequences.
+                Test parameter sensitivity.
+                Visualize outputs using libraries like matplotlib.
 
-  Execute the provided scripts for:
-    Generating chaotic sequences
-    Exploring parameter sensitivity
-    Applying the mapping in security-related scenarios.
+Testing:
+        Modify parameters in the code to observe changes in chaotic behavior.
+        Compare generated outputs to evaluate entropy and randomness.
 
-Requirements
-  Python 3.x or higher
+File Structure
+        src/: Python scripts for chaos generation and analysis.
+        examples/: Sample use cases for encryption and random number generation.
+        docs/: Theoretical background and system equations.
 
-Dependencies (install via requirements.txt):
-  bash
-  Copy code
-  pip install -r requirements.txt
-
-Contribution
-  Contributions are welcome! Please feel free to submit issues or pull requests to enhance the functionality and documentation of this repository.
-
+Contribution Guidelines
+        Report issues or contribute enhancements through the repository’s Issues tab.
+        Submit pull requests with documented changes.
